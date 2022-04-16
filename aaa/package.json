@@ -1,0 +1,25 @@
+{
+  "name": "ml-linear-regression",
+  "version": "1.0.0",
+  "description": "多元线性回归, Multivariate linear regression",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/neohan666/wxmp-rsa.git"
+  },
+  "keywords": [
+    "ml-linear-regression"
+  ],
+  "author": "Chen Qi",
+  "license": "ISC",
+  "dependencies": {
+    "mathjs": "^10.4.3",
+    "ml-regression-multivariate-linear": "^2.0.3"
+  }
+}
