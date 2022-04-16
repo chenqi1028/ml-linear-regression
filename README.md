@@ -52,8 +52,8 @@ console.log(mlr.predict([3, 3]));
 [MIT](./LICENSE)
 
 [npm-image]: https://img.shields.io/npm/v/ml-regression-multivariate-linear.svg
-[npm-url]: https://npmjs.org/package/ml-regression-multivariate-linear
+[npm-url]: https://npmjs.org/package/ml-linear-regression
 [ci-image]: https://github.com/mljs/regression-multivariate-linear/workflows/Node.js%20CI/badge.svg?branch=master
-[ci-url]: https://github.com/mljs/regression-multivariate-linear/actions?query=workflow%3A%22Node.js+CI%22
+[ci-url]: https://github.com/chenqi1028/ml-linear-regression
 [download-image]: https://img.shields.io/npm/dm/ml-regression-multivariate-linear.svg
-[download-url]: https://npmjs.org/package/ml-regression-multivariate-linear
+[download-url]: https://npmjs.org/package/ml-linear-regression
