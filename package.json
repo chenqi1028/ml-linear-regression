@@ -1,6 +1,6 @@
 {
   "name": "ml-linear-regression",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "多元线性回归, Multivariate linear regression",
   "main": "lib/index.js",
   "scripts": {
@@ -11,7 +11,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/neohan666/wxmp-rsa.git"
+    "url": "git://github.com/chenqi1028/ml-linear-regression"
   },
   "keywords": [
     "ml-linear-regression"
