@@ -1,8 +1,10 @@
 # ml-linear-regression
 
-[![NPM version][npm-image]][npm-url]
-[![build status][ci-image]][ci-url]
-[![npm download][download-image]][download-url]
+<p align="center">
+  <a href="https://npmcharts.com/compare/ml-linear-regression?minimal=true"><img src="https://img.shields.io/npm/dm/ml-linear-regression.svg?sanitize=true"></a>
+  <a href="https://www.npmjs.com/package/ml-linear-regression"><img src="https://img.shields.io/npm/v/ml-linear-regression.svg?sanitize=true" alt="Version"></a>
+  <a href="https://www.npmjs.com/package/ml-linear-regression"><img src="https://img.shields.io/npm/l/ml-linear-regression.svg?sanitize=true" alt="License"></a>
+</p>
 
 Multivariate linear regression.
 
@@ -50,10 +52,3 @@ console.log(mlr.predict([3, 3]));
 ## License
 
 [MIT](./LICENSE)
-
-[npm-image]: https://img.shields.io/npm/v/ml-regression-multivariate-linear.svg
-[npm-url]: https://npmjs.org/package/ml-linear-regression
-[ci-image]: https://github.com/mljs/regression-multivariate-linear/workflows/Node.js%20CI/badge.svg?branch=master
-[ci-url]: https://github.com/chenqi1028/ml-linear-regression
-[download-image]: https://img.shields.io/npm/dm/ml-regression-multivariate-linear.svg
-[download-url]: https://npmjs.org/package/ml-linear-regression
