@@ -1,6 +1,6 @@
 # ml-linear-regression
 
-<p align="center">
+<p align="left">
   <a href="https://npmcharts.com/compare/ml-linear-regression?minimal=true"><img src="https://img.shields.io/npm/dm/ml-linear-regression.svg?sanitize=true"></a>
   <a href="https://www.npmjs.com/package/ml-linear-regression"><img src="https://img.shields.io/npm/v/ml-linear-regression.svg?sanitize=true" alt="Version"></a>
   <a href="https://www.npmjs.com/package/ml-linear-regression"><img src="https://img.shields.io/npm/l/ml-linear-regression.svg?sanitize=true" alt="License"></a>
