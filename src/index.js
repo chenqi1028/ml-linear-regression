@@ -2,7 +2,8 @@ const MLR = require("ml-regression-multivariate-linear");
 const math = require("mathjs")
 
 export default class MlLinearRegression {
-  constructor(x, y){
+  constructor(x, y, options = {}){
+    const { intercept = true, statistics = true } = options;
     const flipX = [],flipY = []
     for (let i = 0; i < x.length; i++) {
       for (let j = 0; j < x[i].length; j++) {
@@ -30,7 +31,7 @@ export default class MlLinearRegression {
       stdArrY[i] = math.std(flipY[i])
     }
     
-    const mlr = new MLR(x,y);
+    const mlr = new MLR(x, y, { intercept:intercept, statistics:statistics });
 
     this.stdWeight = JSON.parse(JSON.stringify(mlr.weights));
     for (let i = 0; i < mlr.weights.length-1; i++) {

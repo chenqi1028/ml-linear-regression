@@ -1,4 +1,4 @@
-const MLR = require("../src/index");
+const MLR = require("../lib/index");
 
 const x = [
   [0, 0],
@@ -20,6 +20,6 @@ const y = [
 // ]
 // const y=[[37], [50], [34]]
 
-const mlr = new MLR(x, y);
+const mlr = new MLR(x, y, { intercept:true, statistics:false });
 console.log(mlr);
 console.log(mlr.predict([3, 3]));
