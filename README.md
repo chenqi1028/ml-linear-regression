@@ -45,6 +45,9 @@ const y = [
   [6, 8, 7]
 ];
 const mlr = new MLR(x, y);
+console.log(mlr);
+//weights Non standardized regression coefficient
+//stdWeights Standardized regression coefficient
 console.log(mlr.predict([3, 3]));
 // [6, 6, 6]
 ```

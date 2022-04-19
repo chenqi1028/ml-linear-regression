@@ -33,13 +33,13 @@ export default class MlLinearRegression {
     
     const mlr = new MLR(x, y, { intercept:intercept, statistics:statistics });
 
-    this.stdWeight = JSON.parse(JSON.stringify(mlr.weights));
+    this.stdWeights = JSON.parse(JSON.stringify(mlr.weights));
     for (let i = 0; i < mlr.weights.length-1; i++) {
       for (let j = 0; j < mlr.weights[i].length; j++) {
-        this.stdWeight[i][j] = mlr.weights[i][j] * stdArrX[i] / stdArrY[j]
+        this.stdWeights[i][j] = mlr.weights[i][j] * stdArrX[i] / stdArrY[j]
       }
     }
-    this.stdWeight.splice(-1)
+    this.stdWeights.splice(-1)
 
     this.statistics = mlr.statistics
     this.weights = mlr.weights;
