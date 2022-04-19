@@ -1,6 +1,6 @@
 {
   "name": "ml-linear-regression",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "多元线性回归, Multivariate linear regression",
   "main": "lib/index.js",
   "scripts": {
